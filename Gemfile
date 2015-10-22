@@ -14,9 +14,15 @@ gem 'coffee-rails', '~> 4.1.0'
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
 
+# Make Heroku Work
 ruby '2.2.3'
 gem 'rails_12factor', group: :production
 gem 'puma',           group: :production
+
+# Stylesheets Gem Configuration
+gem 'bootstrap-sass'
+gem 'font-awesome-sass'
+gem 'simple_form'
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
